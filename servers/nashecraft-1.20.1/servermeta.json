@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "id": "nashecraft-1.20.1",
+        "name": "NasheCraft",
+        "description": "El mejor server",
+        "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/src/assets/images/icons/minecraft.png",
+        "version": "1.0.0",
+        "address": "localhost",
+        "minecraftVersion": "1.20.1",
+        "mainServer": true,
+        "loader": {
+            "type": "forge",
+            "version": "47.3.0"
+        }
+    }
+}
