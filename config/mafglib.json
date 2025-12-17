@@ -1,0 +1,11 @@
+{
+  "Generic": {
+    "ignoredKeys": {
+      "keys": ""
+    },
+    "openGuiConfigs": {
+      "keys": "KP_9"
+    },
+    "realmsCommonConfig": true
+  }
+}

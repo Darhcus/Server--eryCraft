@@ -1,0 +1,30 @@
+
+#Weapons, armor, tools, and all enchanted items including books are added by default.
+#But only if they are not of tier: leather (armor), wooden, stone, iron, and gold
+#You don't need to add all items or tags, just the ones that aren't included by default.
+#Enchanted books will only cost base price
+["Loot Config"]
+	#List of valuable item IDs/price. Use Minecraft namespace format (e.g. minecraft:golden_apple/5).
+	#Can also use modded items (e.g. spartanweaponry:battle_hammer/20)
+	VALUABLE_ITEM_IDS = ["minecraft:golden_apple/5", "minecraft:enchanted_golden_apple/15", "minecraft:golden_carrot/1", "minecraft:totem_of_undying/15", "minecraft:nether_star/70", "minecraft:ender_pearl/2", "minecraft:ender_eye/15"]
+	#List of valuable item tags/price. Use Minecraft namespace format (e.g. forge:gems/4).
+	#Can also use modded tags (e.g. alexmobs:chestplates/25)
+	VALUABLE_TAG_IDS = []
+
+["Item Expiration Config"]
+	#Minecraft ticks until item lost forever (0 to disable) (24000 = 1 in game day) (2 week default)
+	#Range: 0 ~ 9223372036854775807
+	ITEM_DISPOSAL_TIME = 336000
+
+["Wandering Trader Config"]
+	#Minecraft ticks until you can call another trader per village (24000 = 1 in game day)(4 day default) (called by village bell)
+	#Range: 0 ~ 9223372036854775807
+	TRADER_SUMMONING_COOLDOWN_DURATION = 96000
+	#Probability % on any item to be added as trade on wandering trader every cooldown refresh (default: "15")
+	#Range: 0 ~ 100
+	PROBABILITY_OF_LOST_ITEM_IN_TRADE = 15
+	#Base price of item trades in emeralds, influenced by item type and enchantments
+	#(default: "4") (min: 1) (it should be what you consider a diamond is worth), netherite is double
+	#Range: > 1
+	BASE_PRICE_OF_LOST_ITEM_IN_TRADE = 4
+
